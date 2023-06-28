@@ -14,6 +14,10 @@
 		34AF83C32A49F6D3006D3752 /* Fitness_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF83C22A49F6D3006D3752 /* Fitness_TrackerTests.swift */; };
 		34AF83CD2A49F6D3006D3752 /* Fitness_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF83CC2A49F6D3006D3752 /* Fitness_TrackerUITests.swift */; };
 		34AF83CF2A49F6D3006D3752 /* Fitness_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF83CE2A49F6D3006D3752 /* Fitness_TrackerUITestsLaunchTests.swift */; };
+		34AF83DE2A4A0D65006D3752 /* WorkoutTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF83DD2A4A0D65006D3752 /* WorkoutTrackingView.swift */; };
+		34AF83E02A4A0F77006D3752 /* TrackCaloriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF83DF2A4A0F77006D3752 /* TrackCaloriesView.swift */; };
+		34AF83E22A4A1011006D3752 /* ChooseWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF83E12A4A1011006D3752 /* ChooseWorkoutView.swift */; };
+		34AF83E42A4A156C006D3752 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF83E32A4A156C006D3752 /* UserProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		34AF83C82A49F6D3006D3752 /* Fitness TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AF83CC2A49F6D3006D3752 /* Fitness_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_TrackerUITests.swift; sourceTree = "<group>"; };
 		34AF83CE2A49F6D3006D3752 /* Fitness_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34AF83DD2A4A0D65006D3752 /* WorkoutTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTrackingView.swift; sourceTree = "<group>"; };
+		34AF83DF2A4A0F77006D3752 /* TrackCaloriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCaloriesView.swift; sourceTree = "<group>"; };
+		34AF83E12A4A1011006D3752 /* ChooseWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseWorkoutView.swift; sourceTree = "<group>"; };
+		34AF83E32A4A156C006D3752 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				34AF83B12A49F6D1006D3752 /* Fitness_TrackerApp.swift */,
 				34AF83B32A49F6D1006D3752 /* ContentView.swift */,
+				34AF83DD2A4A0D65006D3752 /* WorkoutTrackingView.swift */,
+				34AF83DF2A4A0F77006D3752 /* TrackCaloriesView.swift */,
+				34AF83E12A4A1011006D3752 /* ChooseWorkoutView.swift */,
+				34AF83E32A4A156C006D3752 /* UserProfileView.swift */,
 				34AF83B52A49F6D3006D3752 /* Assets.xcassets */,
 				34AF83B72A49F6D3006D3752 /* Preview Content */,
 			);
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AF83DE2A4A0D65006D3752 /* WorkoutTrackingView.swift in Sources */,
+				34AF83E42A4A156C006D3752 /* UserProfileView.swift in Sources */,
+				34AF83E22A4A1011006D3752 /* ChooseWorkoutView.swift in Sources */,
+				34AF83E02A4A0F77006D3752 /* TrackCaloriesView.swift in Sources */,
 				34AF83B42A49F6D1006D3752 /* ContentView.swift in Sources */,
 				34AF83B22A49F6D1006D3752 /* Fitness_TrackerApp.swift in Sources */,
 			);
